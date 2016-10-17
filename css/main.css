@@ -137,9 +137,7 @@ width: 130px;
 .web{
 color:black !important;
 }
-#infogral img{
-  width:100%
-}
+
 .titulo_primera {
        color: #E80B0B;
     text-align: center;
@@ -187,8 +185,7 @@ width:100%;
     text-shadow: 3px 2px 8px black;
     font-weight: 900;
 }
-#infogral .col-lg-12{
-    padding: 0pc;}
+
 .title-categoria {
       font-family: 'Gotham-Black';
     font-size: 25px;
@@ -270,6 +267,12 @@ text-align:center;
 margin:0px;
 padding:0px}
 #noticias .redes{
+    position: absolute;}
+	
+#infogral .col-xs-12{
+margin:0px;
+padding:0px}
+#infogral .redes{
     position: absolute;}
 /* --------------------------Iconos--------------------*/
 @font-face{

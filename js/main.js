@@ -132,16 +132,18 @@ $("#secundarias").html("");
 			$(data2).each(function (index, data2) {
 		
 				$("#infogral").append(
-					"<div class='row'><a href='#noticia1' data-transition='flip'  onclick='cargar("+data2.id_Noticia+");'>"+
+							
+							"<div class='row'><a href='#noticia1' data-transition='flip'  onclick='cargar("+data2.id_Noticia+");'>"+
 						
-				"<div class='col-lg-12'><div class='box-img-secundarias'><img  class='img-responsive' src='http://tiempopopular.com.ar/2014/imagenes/"+data2.url+"_s.jpg'></div>"+
+				"<div class='col-xs-12 col-sm-12'><div class='box-img-secundarias'><img  class='img-responsive' src='http://tiempopopular.com.ar/2014/imagenes/"+data2.url+"_s.jpg'></div>"+
 				"<div class='box-titulo-secundarias'><H1 class='titulo_segundas'>"+data2.titulo+"</h1></div></div>"+
 				"<div class='redes'>"+
 					"<a  onclick='redsocial("+1+","+data2.id_Noticia+")'><span class='icon-whatsapp'></span></a>"+
 					"<a onclick='redsocial("+2+","+data2.id_Noticia+")'><span class='icon-facebook'></span></a>"+
 					"<a onclick='redsocial("+3+","+data2.id_Noticia+")'><span class='icon-twitter'></span></a></div>"+
 				"</a></div> <hr>"
-					);
+									
+									);
 			
 			
 			});
